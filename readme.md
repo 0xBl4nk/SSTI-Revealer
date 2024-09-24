@@ -1,7 +1,7 @@
 # SSTI Revealer
 An advanced, customizable tool for detecting Server-Side Template Injection (SSTI) vulnerabilities across multiple template engines with precision and ease.
 
-## Features
+## 📃 Features
 - **Multiple Template Engine Support**: Tests for SSTI across various template engines including Jinja2, Twig, Smarty, Velocity, Freemarker, and more.
 - **Customizable Payloads**: Easily modify or extend payloads via the external payloads.json file.
 - **Unique Random Payloads**: Generates unique mathematical expressions using random numbers to reduce false positives and accurately detect vulnerabilities.
@@ -19,7 +19,7 @@ Example:
 - The tool then checks if 24690 is present in the response.
 - If found, it confirms an SSTI vulnerability.
 
-## Build
+## Build Project
 
 ```bash
 git clone git@github.com:ArthurHydr/SSTI-Revealer.git
@@ -52,6 +52,13 @@ Testing a POST request:
 ```bash
 ./SSTI-Revealer -u "http://example.com/login" -x POST -d "username=admin&password=FUZZ"
 ```
+
+## Contributing
+1. Fork this repository.
+2. Create a new branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit: `git commit -m '<commit_message>'`.
+4. Push to your branch: `git push origin <branch_name>`.
+5. Open a pull request.
 
 ---
 
