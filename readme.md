@@ -1,5 +1,5 @@
 # SSTI Revealer
-A simple tool to detect Server-Side Template Injection (SSTI) vulnerabilities.
+An advanced, customizable tool for detecting Server-Side Template Injection (SSTI) vulnerabilities across multiple template engines with precision and ease.
 
 ## Features
 - **Multiple Template Engine Support**: Tests for SSTI across various template engines including Jinja2, Twig, Smarty, Velocity, Freemarker, and more.
