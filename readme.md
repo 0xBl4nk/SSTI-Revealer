@@ -53,3 +53,10 @@ Testing a POST request:
 ./SSTI-Revealer -u "http://example.com/login" -x POST -d "username=admin&password=FUZZ"
 ```
 
+---
+
+# TO-DO 
+- [ ] --os--shell
+- [ ] --host-info
+- [ ] -S (system command)
+
