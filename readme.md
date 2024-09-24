@@ -24,6 +24,7 @@ Example:
 ```bash
 git clone git@github.com:ArthurHydr/SSTI-Revealer.git
 cd SSTI-Revealer
+go mod download
 go build .
 ```
 
